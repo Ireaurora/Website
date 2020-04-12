@@ -14,6 +14,7 @@ class Home extends Component {
             <Social />
             <Education />
             <Skills />
+            <Social />
             </div>
             )
         }
