@@ -86,16 +86,15 @@ p{
 h1,h2,h3,h4,p{
   margin: 10px;
 }
-.social
-{
+.social  {
   display: flex;
+  i {
+    padding-right: 30px;
+    font-size: 25px;
+    color: #9a9b9c;
+  }
 }
-.social i
-{
-  padding-right: 30px;
-  font-size: 25px;
-  color: #9a9b9c;
-}
+
 .social i:hover
 {
   color: #ffffff;
