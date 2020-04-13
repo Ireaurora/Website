@@ -31,10 +31,9 @@ body {
   height: 64px;
 }
 
-#responsive-navbar-nav {
+.navbar-collapse {
   background: #9fff82;
   background: -webkit-linear-gradient(left, #9fff82, #9fff82, #00ffd8, #00ffd8, #56d6fc, #23abfa);
-  width: 100% !important;
 }
 
 .condiv {
@@ -71,19 +70,6 @@ body {
   font-size: var(--typing-font);
   margin-bottom: 30px;
   text-align: center;
-}
-
-nav ul {
-  font-size: var(--fontsize-nav);
-  text-align: center;
-  list-style-type: none;
-  text-decoration: none;
-  color: white !important;
-}
-
-a {
-  text-decoration: none;
-  color: white;
 }
 
 .subtopic {
@@ -198,35 +184,6 @@ h1, h2, h3, h4, p {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  nav ul li {
-    margin: 10px;
-  }
-}
-
-a {
-  color: #009688;
-}
-
-.text-center {
-  text-align: center;
-}
-
-nav {
-  background: white;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  height: 0;
-}
-
-nav i {
-  padding: 0 15px;
-  position: relative;
-  top: 5px;
 }
 
 main {
@@ -246,49 +203,6 @@ dd {
 dt {
   display: inline-block;
   margin-left: 0.5rem;
-}
-
-ul.side-nav {
-  width: 190px;
-}
-
-ul.side-nav li {
-  padding: 0;
-}
-
-ul.side-nav.fixed a {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  color: #444;
-  display: block;
-  line-height: 100%;
-  padding: 10px 0 12px;
-}
-
-ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
-  border-bottom: 1px solid #ddd;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  min-height: 90px;
-  padding: 30px 30px 40px;
-}
-
-ul.side-nav.fixed li.logo a {
-  font-weight: 200;
-  line-height: 100%;
-}
-
-li.logo span {
-  display: block;
-  font-size: 14px;
-}
-
-.brand-logo h1 {
-  font-size: inherit;
-  line-height: inherit;
-  margin: inherit;
-  font-weight: inherit;
 }
 
 .container {
@@ -311,11 +225,6 @@ h3 {
 
 .full-height {
   height: 100vh;
-}
-
-#intro.section {
-  background: url("/Users/irene/Downloads/Portfolio_Website_ReactJS-master/Portfolio_Website_React JS/src/img/naafi_photo.png") no-repeat top center/cover;
-  position: relative;
 }
 
 #intro.section .container {

@@ -17,9 +17,9 @@ function App() {
     <Router>
     <Navigation />
     <div className="App">
-    <Route exact path="/">
+    <Route exact path="/"></Route>
     <Home />
-    </Route>
+
     </div>
     </Router>
     );

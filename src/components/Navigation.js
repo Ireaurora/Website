@@ -6,7 +6,7 @@ class Navigation extends Component {
 
     render() {
         return (
-        <Navbar collapseOnSelect expand="lg" className="navbar navbar-fixed-top scrolling-navbar double-nav mobile-nofixed">
+        <Navbar collapseOnSelect expand="lg" className="navbar navbar-expand-sm navbar-fixed-top scrolling-navbar double-nav mobile-nofixed">
             <Navbar.Brand href="/">Irene Sarigu</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
