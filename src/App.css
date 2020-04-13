@@ -19,7 +19,6 @@ body {
 .navbar {
   background: #9fff82;
   background: -webkit-linear-gradient(left, #9fff82, #9fff82, #00ffd8, #00ffd8, #56d6fc, #23abfa);
-  width: 100% !important;
 }
 
 .App {
@@ -68,6 +67,7 @@ body {
 
 .subtopic {
   margin: 10px 10px 30px 10px !important;
+  text-align: center;
 }
 
 p {
@@ -92,21 +92,6 @@ h1, h2, h3, h4, p {
 
 .social i:hover {
   color: #56d6fc;
-}
-
-.widecard {
-  border: 0px solid #9a9b9c;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 30px 0px 30px 0px;
-}
-
-.widecard:hover {
-  color: #1b1d20;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 .active {
@@ -153,15 +138,14 @@ h1, h2, h3, h4, p {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  color: black;
 }
 
 .flip-card-front {
   background-color: white;
-  color: black;
 }
 
 .flip-card-back {
-  color: black;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
@@ -221,29 +205,6 @@ h3 {
   height: 100vh;
 }
 
-#intro.section .container {
-  color: white;
-  font-weight: 200;
-  left: 0;
-  position: absolute;
-  top: 0;
-}
-
-#intro.section .container *:not(span) {
-  font-weight: 300;
-  line-height: 150%;
-  padding: 0 30px;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-}
-
-#intro.section .underline {
-  border-bottom: 5px solid #009688;
-}
-
-#intro.section .teal {
-  padding: 0 10px;
-}
-
 .overlay {
   background-color: rgba(0, 0, 0, 0.4);
   height: 100%;
@@ -257,62 +218,6 @@ h3 {
   /* The alpha value allows the text and background color
    of the button to still show through. */
   background-color: rgba(33, 150, 243, 0.2);
-}
-
-.card {
-  margin-bottom: 60px;
-}
-
-.card .role {
-  font-size: 1.25rem;
-  position: absolute;
-  right: 38px;
-  top: 35px;
-}
-
-.card li a {
-  margin-right: 0;
-  color: #333;
-  border-bottom: 2px solid #ffab40;
-}
-
-.card li a:hover {
-  color: #333;
-  font-weight: 500;
-}
-
-.card .card-content {
-  padding-bottom: 30px;
-}
-
-.card .card-content p {
-  padding: 5px 0 0;
-}
-
-.card h5 {
-  font-size: 1.5rem;
-  margin-bottom: -0.5rem;
-  margin-top: 2rem;
-}
-
-.card h6 {
-  font-weight: 300;
-  letter-spacing: 1px;
-  margin-top: 2rem;
-  text-transform: uppercase;
-}
-
-#experience .card-action {
-  background-color: rgba(0, 0, 0, 0.02);
-  border: none;
-}
-
-#experience .card .col.s12.m2 a {
-  display: block;
-}
-
-#experience .card .col.s12.m2 a img {
-  max-height: 60px;
 }
 
 .card-action span {
@@ -384,11 +289,6 @@ a.hoverline:hover {
   padding: 30px 0;
 }
 
-#experience .card-content .row {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 10px;
-}
-
 .card.large .card-image {
   height: 230px;
 }
@@ -411,10 +311,6 @@ a.hoverline:hover {
   position: relative;
 }
 
-#experience .col.s12.m2 {
-  text-align: center;
-}
-
 .fa-external-link:before {
   left: 3px;
   position: relative;
@@ -435,12 +331,6 @@ small {
 
 .teal {
   background-color: #008073 !important;
-}
-
-@media (min-width: 1200px) {
-  #experience .container {
-    width: 860px;
-  }
 }
 
 @media (max-width: 1360px) {
@@ -528,13 +418,6 @@ small {
   .card .card-content .card-title {
     font-size: 20px;
     line-height: 24px;
-  }
-  #experience span.card-title {
-    text-align: center;
-    display: block;
-  }
-  #experience span.card-title a {
-    margin: 0;
   }
   i.mdi-navigation-close.right {
     position: relative;
