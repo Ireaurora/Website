@@ -5,6 +5,7 @@
   --fontsize-nav:1.6rem;
   --typing-font:3rem;
 }
+
 *
 {
   margin:0;
@@ -14,23 +15,16 @@ body {
   color: #333;
   font-size: 16px;
 }
-
+.navbar{
+  background:#9fff82;
+   background: -webkit-linear-gradient(left, #9fff82, #9fff82,#00ffd8,#00ffd8,#56d6fc, #23abfa);
+   width:100% !important;
+}
 .App
 {
   display: flex;
   width: 100vw;
   min-height: 100vh;
-}
-.navbar
-{
-  background:#9fff82;
-  background: -webkit-linear-gradient(left, #9fff82, #9fff82,#00ffd8,#00ffd8,#56d6fc, #23abfa);
-  width:100%;
-  height: 64px;
-}
-.navbar-collapse{
-  background:#9fff82;
-  background: -webkit-linear-gradient(left, #9fff82, #9fff82,#00ffd8,#00ffd8,#56d6fc, #23abfa);
 }
 
 .condiv
@@ -391,17 +385,7 @@ small {
     padding: 0;
     width: 100%;
   }
-  nav {
-    background: #fff;
-    height: 64px;
-    position: absolute;
-  }
-  nav a.button-collapse,
-  nav a.button-collapse i {
-    color: #009688;
-    height: 56px;
-    line-height: 56px;
-  }
+
   h3 {
     padding: 20px 30px;
     margin-bottom: 40px;
