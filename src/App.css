@@ -66,7 +66,7 @@ body {
 }
 
 .subtopic {
-  margin: 10px 10px 30px 10px !important;
+  margin: 10px 0px 30px 0px !important;
   text-align: center;
 }
 
@@ -76,6 +76,15 @@ p {
 
 h1, h2, h3, h4, p {
   margin: 10px;
+}
+
+.contactMe {
+  background: -webkit-linear-gradient(left, #9fff82, #9fff82, #00ffd8, #00ffd8, #56d6fc, #23abfa);
+  text-align: center;
+  color: black;
+  width: 100%;
+  font-size: 12px;
+  padding-top: 15px;
 }
 
 h1 {
@@ -100,6 +109,10 @@ h1:before, h1:after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 10px;
 }
 
 .social i {

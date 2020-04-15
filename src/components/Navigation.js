@@ -17,7 +17,8 @@ class Navigation extends Component {
                  <Nav.Link href="#skills">Skills</Nav.Link>
             </Nav>
             <Nav>
-                <Nav.Link href="/Contact">Contact</Nav.Link>
+                <Nav.Link href="#work">Work</Nav.Link>
+                <Nav.Link href="#contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
             </Navbar>
