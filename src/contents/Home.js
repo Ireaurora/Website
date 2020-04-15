@@ -4,8 +4,6 @@ import picture from '../img/irene.png';
 import Social from '../components/Social'
 import Education from '../contents/Education'
 import Skills from '../contents/Skills'
-import Navigation from '../components/Navigation';
-
 class Home extends Component {
     render() {
         return (

@@ -31,7 +31,7 @@ body {
 
 .condiv {
   /*padding: 100px ;*/
-  background-color: #f4f5f9;
+  background-color: #f5feff;
   -webkit-box-flex: var(--condiv-flex);
       -ms-flex: var(--condiv-flex);
           flex: var(--condiv-flex);
@@ -78,6 +78,24 @@ h1, h2, h3, h4, p {
   margin: 10px;
 }
 
+h1 {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-grid-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+      grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+  grid-gap: 20px;
+}
+
+h1:before, h1:after {
+  content: '';
+  border-top: 2px solid;
+}
+
 .social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -87,11 +105,11 @@ h1, h2, h3, h4, p {
 .social i {
   padding-right: 30px;
   font-size: 25px;
-  color: #9a9b9c;
+  color: #56d6fc;
 }
 
 .social i:hover {
-  color: #56d6fc;
+  color: #23abfa;
 }
 
 .active {
@@ -146,6 +164,7 @@ h1, h2, h3, h4, p {
 }
 
 .flip-card-back {
+  background-color: white;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
 }
@@ -220,38 +239,6 @@ h3 {
   background-color: rgba(33, 150, 243, 0.2);
 }
 
-.card-action span {
-  font-size: 85%;
-  color: #666;
-}
-
-.card ul {
-  margin-bottom: 0;
-}
-
-.card ul li {
-  line-height: 200%;
-  list-style-type: disc;
-  margin-left: 24px;
-}
-
-.card ul li li {
-  color: #666;
-  font-size: 13px;
-}
-
-.card .card-title {
-  font-size: 24px;
-}
-
-.card .card-content .card-title {
-  line-height: 2.5rem;
-}
-
-.card i.right {
-  margin-left: 10px;
-}
-
 a.hoverline {
   border-bottom: 3px solid transparent !important;
   padding: 3px 3px 0 3px;
@@ -283,28 +270,6 @@ a.hoverline:hover {
   display: table-cell;
 }
 
-.card.large .card-content p {
-  color: inherit;
-  margin: 0;
-  padding: 30px 0;
-}
-
-.card.large .card-image {
-  height: 230px;
-}
-
-.card.large .card-content {
-  height: auto;
-}
-
-.card.medium .card-image {
-  height: 240px;
-}
-
-.card-action a.btn-floating {
-  margin-bottom: 0;
-}
-
 #contact a:not(.btn-floating) {
   bottom: 6px;
   left: 20px;
@@ -323,14 +288,6 @@ small {
 
 .grey-text {
   color: #666 !important;
-}
-
-.teal-text {
-  color: #008073 !important;
-}
-
-.teal {
-  background-color: #008073 !important;
 }
 
 @media (max-width: 1360px) {
