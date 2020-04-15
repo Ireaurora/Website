@@ -12,7 +12,7 @@ class Skills extends Component {
     render() {
         return (
             <div className="condiv skills">
-            <h1 className="subtopic"><span>My Skills</span></h1>
+            <h1 className="subtopic" id="skills"><span>My Skills</span></h1>
             <ul>
             {this.state.myskills.map((value)=>{
                 return <li>{value}</li>

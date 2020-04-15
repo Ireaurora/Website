@@ -6,11 +6,6 @@ import {
 } from "react-router-dom";
 import Navigation from './components/Navigation';
 import Home from './contents/Home';
-import About from './contents/About';
-import Education from './contents/Education';
-import Skills from './contents/Skills';
-import Contact from './contents/Contact';
-
 
 function App() {
   return (
@@ -19,7 +14,6 @@ function App() {
     <div className="App">
     <Route exact path="/"></Route>
     <Home />
-
     </div>
     </Router>
     );
