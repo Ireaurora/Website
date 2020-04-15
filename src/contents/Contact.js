@@ -7,7 +7,7 @@ class Contact extends Component {
             <h1 className="subtopic" id="contact"><span>Contact Me</span></h1>
             <p>Want to chat about something? </p>
             <Social />
-            <p>Designed & Developer by Irene Sarigu</p>
+            <p>Designed & Developed by Irene Sarigu</p>
             <p>Irene Sarigu @ 2020</p>
             </div>
             )
