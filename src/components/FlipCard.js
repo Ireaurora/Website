@@ -9,9 +9,10 @@ class FlipCard extends Component {
               <p>{this.props.title}</p>
               <p> @ </p>
               <p>{this.props.where}</p> 
+              <img src={this.props.image} class="flip-card-image"/>
+               <p>{this.props.from} - {this.props.to}</p>
               </div>
               <div class="flip-card-back">
-                <p>{this.props.from} - {this.props.to}</p>
                 <p>{this.props.education}</p>
               </div>
             </div>

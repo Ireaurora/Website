@@ -29,6 +29,7 @@ body {
   /*padding: 100px ;*/
   background-color: #f5feff;
   flex:var(--condiv-flex);
+  margin-bottom:10px;
 }
 
 .home{
@@ -46,7 +47,7 @@ body {
 .typingeffect
 {
   font-size: var(--typing-font);
-  margin-bottom: 30px;
+  margin: 0px 10px 30px 10px;
   text-align:center;
 }
 
@@ -112,6 +113,12 @@ h1{
   height: 300px;
   perspective: 1000px;
   margin: 7px;
+}
+
+.flip-card-image{
+  width:100px;
+  height:100px;
+  margin-bottom:10px;
 }
 
 .flip-card-inner {
