@@ -3,13 +3,12 @@ import React, { Component } from 'react'
 class FlipCard extends Component {
     render() {
       const List= (props) => {
-        while(true){
         if(props.tasks != undefined){
-        return <p>{props.tasks.join(', ')}</p>}
-        else{
-          return <p>Not present</p>
+          return props.tasks.map(skill=>
+              <li>{skill}</li>) }
+          else{
+            return <p>This experience was extremely valuable to me and taught me so much.</p>
         }
-      }
       };
         return (
             <div className="flip-card">
@@ -17,14 +16,12 @@ class FlipCard extends Component {
               <div className="flip-card-front">
               <p className="title">{this.props.title}</p>
               <p> @ </p>
-              <p classßName="where">{this.props.where}</p> 
+              <p className="where">{this.props.where}</p> 
               <img src={this.props.image} className="flip-card-image"/>
                <p className="date">{this.props.from} - {this.props.to}</p>
               </div>
               <div className="flip-card-back">
-
               <List tasks= {this.props.skills} />
-
               </div>
             </div>
           </div>
