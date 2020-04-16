@@ -62,7 +62,7 @@ body {
 
 .typingeffect {
   font-size: var(--typing-font);
-  margin: 0px 10px 30px 10px;
+  margin: 0px 30px 30px 30px;
   text-align: center;
 }
 
@@ -187,6 +187,12 @@ h1:before, h1:after {
   background-color: white;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
+}
+
+.flip-card-back ul li {
+  list-style-position: inside;
+  list-style-type: disc;
+  padding: 0;
 }
 
 @media all and (max-width: 450px) {

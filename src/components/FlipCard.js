@@ -4,8 +4,7 @@ class FlipCard extends Component {
     render() {
       const List= (props) => {
         if(props.tasks != undefined){
-          return props.tasks.map(skill=>
-              <li>{skill}</li>) }
+          return <ul>{props.tasks.map(skill=><li>{skill}</li>)}</ul>}
           else{
             return <p>This experience was extremely valuable to me and taught me so much.</p>
         }
@@ -21,6 +20,7 @@ class FlipCard extends Component {
                <p className="date">{this.props.from} - {this.props.to}</p>
               </div>
               <div className="flip-card-back">
+                <p>{this.props.educationLevel} achieved: </p>
               <List tasks= {this.props.skills} />
               </div>
             </div>
