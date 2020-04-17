@@ -14,9 +14,8 @@ class Home extends Component {
             <img src={picture} className="profilepic"></img>
             <ReactTypingEffect className="typingeffect" text={['while(true){ shuffle(Developer 💻, Speaker 👩🏼‍💻, Student 📚, Designer ✏️); }']} speed={100} eraseDelay={250000}/>
             <Social />
-            <Education />
-            <Skills />
             <Work />
+            <Education />
             <Contact />
             </div>
             )
