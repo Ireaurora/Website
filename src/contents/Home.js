@@ -3,7 +3,6 @@ import ReactTypingEffect from 'react-typing-effect';
 import picture from '../img/irene.png';
 import Social from '../components/Social';
 import Education from '../contents/Education';
-import Skills from '../contents/Skills';
 import Work from '../contents/Work';
 import Contact from '../contents/Contact';
 

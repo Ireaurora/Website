@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import FlipCard from '../components/FlipCard';
-import uniofYork from '../img/uniofYork.jpg';
-import bootham from '../img/boothamSchool.png';
+import uniofYork from '../img/uniofYork.png';
+import bootham from '../img/bootham.png';
 
 class Education extends Component {
     render() {

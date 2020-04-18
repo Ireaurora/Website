@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import FlipCard from '../components/FlipCard';
 import legend from '../img/legend.png';
-import rbs from '../img/rbs.jpg';
+import rbs from '../img/rbs.png';
 
 class Work extends Component {
     render() {
