@@ -5,7 +5,7 @@ class FlipCard extends Component {
       const List= (props) => {
         while(true){
           if(props.tasks != undefined){
-          return <p>{props.tasks.join(', ')}</p>}
+          return <ul>{props.tasks.map(skill=><li>{skill}</li>)}</ul>}
           else{
             return <p>Not present</p>
           }
