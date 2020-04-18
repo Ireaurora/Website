@@ -7,7 +7,7 @@ class FlipCard extends Component {
           if(props.tasks != undefined){
           return <ul>{props.tasks.map(skill=><li>{skill}</li>)}</ul>}
           else{
-            return <p>Not present</p>
+            return <p>This experience was extremely valuable to me and taught me so much.</p>
           }
         }
         };
