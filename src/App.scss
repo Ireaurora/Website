@@ -6,13 +6,12 @@
   --typing-font:3rem;
 }
 
-*
-{
+*{
   margin:0;
   padding: 0;
 }
 body {
-  color: #333;
+  color: black;
   font-size: 16px;
 }
 .navbar{
@@ -44,28 +43,25 @@ body {
   width: 200px;
   margin: 30px;
 }
-.typingeffect
-{
+
+.typingeffect{
   font-size: var(--typing-font);
   margin: 0px 30px 30px 30px;
   text-align:center;
 }
 
-.subtopic
-{
+.subtopic{
   margin:10px 0px 30px 0px !important;
   text-align: center;
 }
-p{
-  font-size: var(--fontsize-p);
-}
+
+p{ font-size: var(--fontsize-p); }
 h1,h2,h3,h4,p{
   margin: 10px;
 }
 .contactMe{
   background: -webkit-linear-gradient(left, #9fff82, #9fff82,#00ffd8,#00ffd8,#56d6fc, #23abfa);
   text-align:center;
-  color:black;
   width:100%;
   font-size: 12px;
   padding-top: 15px;
@@ -96,13 +92,9 @@ h1{
   }
 }
 
-.active
-{
-  font-weight: bolder;
-}
+.active{ font-weight: bolder; }
 
-.skills ul li
-{
+.skills ul li{
   list-style-type:none;
   margin:30px;
 }
@@ -131,12 +123,11 @@ h1{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
+.flip-card:hover .flip-card-inner { transform: rotateY(180deg);}
 
 .flip-card-front, .flip-card-back {
   position: absolute;
+  background-color: white;
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
@@ -144,16 +135,11 @@ h1{
   color: black;
 }
 
-.flip-card-front {
-  background-color: white;
-}
-
 .flip-card-back {
-  background-color: white;
   transform: rotateY(180deg);
   ul li{
     list-style-position: inside;
-    list-style-type: disc;
+    list-style-type: none;
     padding:0;
   }
 }
@@ -164,14 +150,10 @@ h1{
     --sidebar-flex:0;
     --typing-font:2rem;
   }
-  .App{
-    flex-direction: column;
-  }
+  .App{ flex-direction: column; }
 }
 
-main {
-  padding-left: 190px;
-}
+main { padding-left: 190px;}
 
 dl {
   margin-top: 0.5rem;
@@ -186,9 +168,8 @@ dt {
   margin-left: 0.5rem;
 }
 
-.container {
-  width: 95%;
-}
+.container { width: 95%;}
+
 h3 {
   font-weight: 200;
   margin-bottom: 60px;
@@ -201,9 +182,8 @@ h3 {
   padding-top: 0;
   position: relative;
 }
-.full-height {
-  height: 100vh;
-}
+
+.full-height { height: 100vh;}
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.4);
@@ -213,11 +193,7 @@ h3 {
   top: 0;
   width: 100%;
 }
-.waves-effect.waves-blue .waves-ripple {
-  /* The alpha value allows the text and background color
-   of the button to still show through. */
-  background-color: rgba(33, 150, 243, 0.2);
-}
+
 
 a.hoverline {
   border-bottom: 3px solid transparent !important;
@@ -226,17 +202,17 @@ a.hoverline {
   -moz-transition: 0.25s all;
   -webkit-transition: 0.25s all;
 }
-a.hoverline:hover {
-  border-bottom: 3px solid #009688 !important;
-}
-#skills .card.large {
-  height: 360px;
-}
+
+a.hoverline:hover { border-bottom: 3px solid #009688 !important;}
+
+#skills .card.large { height: 360px; }
+
 #skills h4 {
   border-bottom: 1px solid #ddd;
   margin-bottom: 30px;
   padding-bottom: 20px;
 }
+
 #skills .col img.responsive-img {
   margin: 0 auto;
   max-height: 100px;
@@ -257,12 +233,9 @@ a.hoverline:hover {
   position: relative;
   top: 2px;
 }
-small {
-  display: none;
-}
-.grey-text {
-  color: #666 !important;
-}
+small { display: none; }
+
+.grey-text { color: #666 !important; }
 
 @media (max-width: 1360px) {
   .card ul li {
@@ -291,9 +264,7 @@ small {
     padding: 20px 30px;
     margin-bottom: 40px;
   }
-  .container {
-    margin: 0 auto;
-  }
+  .container { margin: 0 auto;}
 
   nav.hide-on-large.only.trigger {
     display: block;
@@ -301,40 +272,13 @@ small {
     top: 0;
     z-index: 2;
   }
-  .name-title {
-    display: block;
-    height: 100%;
-    padding-top: 15px;
-    text-align: center;
-    width: 100%;
-    position: absolute;
-  }
-  .name-title > span,
-  .name-title > a {
-    position: relative;
-    line-height: 20px;
-  }
-  .name-title a {
-    font-size: 22px;
-    display: block;
-  }
-  .name-title span {
-    display: block;
-    font-size: 14px;
-  }
+
   h3,
   .container {
     position: relative;
     top: 64px;
   }
-  section#intro {
-    margin-bottom: -64px;
-  }
-  .card .role {
-    position: relative;
-    right: initial;
-    top: initial;
-  }
+  section#intro { margin-bottom: -64px; }
 }
 @media (max-width: 600px) {
   h2 {
@@ -342,9 +286,9 @@ small {
     line-height: 200%;
     margin: 30px 0 0;
   }
-  #intro.section .container *:not(span) {
-    padding: 0;
-  }
+
+  #intro.section .container *:not(span) { padding: 0; }
+
   .card .card-content .card-title {
     font-size: 20px;
     line-height: 24px;
@@ -354,18 +298,19 @@ small {
     position: relative;
     bottom: 35px;
   }
+
   #contact a:not(.btn-floating) {
     text-align: center;
     display: block;
     left: initial;
     bottom: initial;
   }
+
   #contact a.btn-floating.btn-large {
     display: block;
     text-align: center;
     margin: 0 auto;
   }
-  #intro.section {
-    background-position-x: 30%;
-  }
+
+  #intro.section { background-position-x: 30%;}
 }

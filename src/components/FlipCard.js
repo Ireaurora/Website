@@ -3,12 +3,14 @@ import React, { Component } from 'react'
 class FlipCard extends Component {
     render() {
       const List= (props) => {
-        if(props.task != undefined){
-          return <ul>{props.task.map(skill=><li>{skill}</li>)}</ul>}
+        while(true){
+          if(props.tasks != undefined){
+          return <ul>{props.tasks.map(skill=><li>{skill}</li>)}</ul>}
           else{
             return <p>This experience was extremely valuable to me and taught me so much.</p>
+          }
         }
-      }
+        };
         return (
             <div className="flip-card">
             <div className="flip-card-inner">
