@@ -36,6 +36,35 @@
     <script src="https://kit.fontawesome.com/2cba884da3.js" crossorigin="anonymous"></script>
   </head>
   <body>
+     <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+
+  <!-- If you enabled Analytics in your project, add the Firebase SDK for Analytics -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-analytics.js"></script>
+
+  <!-- Add Firebase products that you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-firestore.js"></script>
+
+  <script>
+    // TODO: Replace the following with your app's Firebase project configuration
+    const firebaseConfig = {
+        apiKey: "AIzaSyAlmiYKzgnGZkUuPcesQRNMG95Dlyl1fnE",
+        authDomain: "irene-sarigu.firebaseapp.com",
+        databaseURL: "https://irene-sarigu.firebaseio.com",
+        projectId: "irene-sarigu",
+        storageBucket: "irene-sarigu.appspot.com",
+        messagingSenderId: "852677057992",
+        appId: "1:852677057992:web:0e6cfb81148f074b0bb4fd",
+        measurementId: "G-QWKKD7Y770"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
