@@ -30,12 +30,10 @@ body {
 }
 
 .condiv {
-  /*padding: 100px ;*/
   background-color: #f5feff;
   -webkit-box-flex: var(--condiv-flex);
       -ms-flex: var(--condiv-flex);
           flex: var(--condiv-flex);
-  margin-bottom: 10px;
 }
 
 .home {

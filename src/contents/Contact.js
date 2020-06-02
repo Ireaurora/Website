@@ -8,7 +8,7 @@ class Contact extends Component {
             <p>Want to chat about something? </p>
             <Social />
             <p>Designed & Developed by Irene Sarigu</p>
-            <p>Irene Sarigu @ 2020</p>
+            <p>Irene Sarigu 2020</p>
             </div>
             )
         }
