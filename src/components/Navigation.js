@@ -13,11 +13,11 @@ class Navigation extends Component {
             <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
                  <Nav.Link href="#about">About</Nav.Link>
-                 <Nav.Link href="#education">Education</Nav.Link>
-                 <Nav.Link href="#skills">Skills</Nav.Link>
+                 <Nav.Link href="#work">Experience</Nav.Link>
+                 {/* <Nav.Link href="#skills">Skills</Nav.Link> */}
             </Nav>
             <Nav>
-                <Nav.Link href="#work">Work</Nav.Link>
+                <Nav.Link href="#education">Education</Nav.Link>
                 <Nav.Link href="#contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>

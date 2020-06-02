@@ -7,11 +7,9 @@ class About extends Component {
             <h1 className="subtopic" id="about"><span>About Me</span></h1>
             <h4> </h4>
             <h1> </h1>
-           
             <br></br>
             <p>
             </p>
-            
             </div>
             )
         }

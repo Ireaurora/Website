@@ -10,7 +10,7 @@ class Work extends Component {
             <div className="condiv">
             <h1 className="subtopic" id="work"><span>Experience</span></h1>
 
-            <FlipCard title="Software Engineer Intern" where="Royal Bank of Scotland" from="June 2020" to="August 2020" image={rbs} educationLevel="Experiences" skills={[]}/>
+            <FlipCard title="Software Engineer Intern" where="Royal Bank of Scotland" from="June 2020" to="August 2020" image={rbs} educationLevel="Experiences" skills={['In progress']}/>
     
             <FlipCard title="Web Developer" where="Legend Club Managment System" from="Sept 2019" to="April 2020" image={legend} educationLevel="Skills" skills={['MVC','HTML','CSS & SASS','JavaScript','Accessibility Group' ,'TypeScript','Training Code Academy Developers','Agile Environment']} />
            
