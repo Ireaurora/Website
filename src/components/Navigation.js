@@ -9,9 +9,10 @@ class Navigation extends Component {
         console.log("hello");
         $('.navbar-links').click(function() {
             var sectionTo = $(this).attr('href');
-            var offSet = $('#responsive-navbar-nav').height();
-            var targetOffset = $(sectionTo).offset().top - offSet;
-            $('html, body').animate({scrollTop:targetOffset}, 1500);
+           // var offSet = Math.min($('#responsive-navbar-nav').height(), $('#navigationbar').height());
+           var offSet = $('#responsive-navbar-nav').height();
+           var targetOffset = $(sectionTo).offset().top - offSet;
+            $('html, body').animate({scrollTop:targetOffset + "px"}, 1500);
         });
       }
     render() {
@@ -21,13 +22,13 @@ class Navigation extends Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-                 <Nav.Link className="navbar-links" href="#about">about</Nav.Link>
-                 <Nav.Link className="navbar-links" href="#work">experience</Nav.Link>
+                 <Nav.Link href="#About">About</Nav.Link>
+                 <Nav.Link className="navbar-links" href="#Experience">Experience</Nav.Link>
                  {/* <Nav.Link href="#skills">Skills</Nav.Link> */}
             </Nav>
             <Nav>
-                <Nav.Link className="navbar-links" href="#education">education</Nav.Link>
-                <Nav.Link  className="navbar-links" href="#contact">contact</Nav.Link>
+                <Nav.Link className="navbar-links" href="#Education">Education</Nav.Link>
+                <Nav.Link  className="navbar-links" href="#Contact">Contact</Nav.Link>
               </Nav>
             </Navbar.Collapse>
             </Navbar>

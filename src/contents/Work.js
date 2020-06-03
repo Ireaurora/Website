@@ -8,7 +8,7 @@ class Work extends Component {
 
         return (
             <div className="condiv">
-            <h1 className="subtopic" id="work"><span>Experience</span></h1>
+            <h1 className="subtopic" id="Experience"><span>Experience</span></h1>
 
             <FlipCard title="Software Engineer Intern" where="Royal Bank of Scotland" from="June 2020" to="August 2020" image={rbs} educationLevel="Experiences" skills={['In progress']}/>
     

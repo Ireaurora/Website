@@ -4,7 +4,7 @@ class Contact extends Component {
     render() {
         return (
             <div className="contactMe">
-            <h1 className="subtopic" id="contact"><span>Contact Me</span></h1>
+            <h1 className="subtopic" id="Contact"><span>Contact Me</span></h1>
             <p>Want to chat about something? </p>
             <Social />
             <p>Designed & Developed by Irene Sarigu</p>
