@@ -8,20 +8,15 @@ class Navigation extends Component {
         // Markup should load first
         console.log("hello");
         $('.navbar-links').click(function() {
-            console.log("hi")
             var sectionTo = $(this).attr('href');
-            console.log($(this));
-            $('html, body').animate({
-              scrollTop: $(sectionTo).offset().top
-            }, 1500);
-
-
+            var offSet = $('#responsive-navbar-nav').height();
+            var targetOffset = $(sectionTo).offset().top - offSet;
+            $('html, body').animate({scrollTop:targetOffset}, 1500);
         });
       }
     render() {
         return (
-
-        <Navbar collapseOnSelect expand="lg" className="navbar navbar-fixed-top scrolling-navbar double-nav mobile-nofixed">
+        <Navbar id="navigationbar" collapseOnSelect expand="lg" className="navbar navbar-fixed-top scrolling-navbar double-nav mobile-nofixed">
             <Navbar.Brand href="/">Irene Sarigu</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
