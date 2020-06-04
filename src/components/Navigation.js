@@ -6,10 +6,8 @@ import $ from "jquery";
 class Navigation extends Component {
     componentDidMount() {
         // Markup should load first
-        console.log("hello");
         $('.navbar-links').click(function() {
             var sectionTo = $(this).attr('href');
-           // var offSet = Math.min($('#responsive-navbar-nav').height(), $('#navigationbar').height());
            var offSet = $('#responsive-navbar-nav').height();
            var targetOffset = $(sectionTo).offset().top - offSet;
             $('html, body').animate({scrollTop:targetOffset + "px"}, 1500);
