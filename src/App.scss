@@ -322,3 +322,25 @@ small { display: none; }
     overflow-x: hidden;
   }
 }
+
+.CodeProjects{
+  margin:30px;
+}
+
+.card-deck{
+  margin-top:10px;
+}
+
+.card_button{
+  background-color: #25a599 !important;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  float:left;
+  clear:left !important;
+  border: 1px solid #318e85 !important;
+  text-align:center;
+  &:hover{
+    background-color: #25a599 !important;
+  }
+}
