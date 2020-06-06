@@ -324,11 +324,23 @@ small { display: none; }
 }
 
 .CodeProjects{
-  margin:30px;
+  width: 80%;
+  margin: 0 auto;
+  width:100%;
+  text-align:center;
+}
+
+.card{
+  max-width: 250px;
+  max-height: 450px;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
 }
 
 .card-deck{
   margin-top:10px;
+  display:flex;
 }
 
 .card_button{
