@@ -429,20 +429,40 @@ small {
 
 .card_button {
   margin: 2px;
-  background-color: #25a599 !important;
-  color: white;
-  border: 1px solid #318e85 !important;
+  background-color: #56d6fc !important;
+  border: 1px solid #23abfa !important;
 }
 
 .card_button:hover {
-  background-color: #25a599 !important;
+  background-color: #23abfa !important;
+  border: 1px solid #23abfa !important;
 }
 
 .card_button a {
   color: white;
 }
 
+.card_button a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 #small {
   font-size: x-small;
+}
+
+.dropdown {
+  float: right;
+  padding: 20px 10px 20px 0;
+}
+
+#dropdown-basic {
+  background-color: #56d6fc !important;
+  border: 1px solid #23abfa !important;
+}
+
+a.dropdown-item {
+  color: #0c74b1 !important;
+  font-weight: bold;
 }
 /*# sourceMappingURL=App.css.map */
