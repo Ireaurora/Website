@@ -15,8 +15,10 @@ class CodeProject extends Component {
                 <Dropdown.Item href="#/action-1">L1</Dropdown.Item>
                 <Dropdown.Item href="#/action-2">L2</Dropdown.Item>
                 <Dropdown.Item href="#/action-3">L3</Dropdown.Item>
+                <Dropdown.Item href="#message">More Projects</Dropdown.Item>
             </Dropdown.Menu>
             </Dropdown>
+            
             <div className="CodeCards">
             <h1 className="subtopic" id=""><span></span></h1>
             <CardDeck>
@@ -30,6 +32,7 @@ class CodeProject extends Component {
                 <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
                 <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
             </CardDeck>
+            <p id="message">This page highlight only some of my projects! Find more on my <a href="https://twitter.com/WinnieIre" target="_blank"><i className="fab fa-github"></i></a> page!</p>
         </div>
         <Contact />
         </div>

@@ -336,7 +336,7 @@ small { display: none; }
 .card-deck{
   width: 100%;
   margin: 0 auto;
-  padding:0 10px 30px 30px;
+  padding:0 30px 30px 30px;
 }
 
 @media (min-width: 576px){
@@ -385,4 +385,23 @@ small { display: none; }
 a.dropdown-item{
   color:#0c74b1!important;
   font-weight: bold;
+  &:hover{
+    color: #23abfa;
+    background-color:white;
+  }
+  &:focus{
+    color: #23abfa;
+    background-color:white !important;
+  }
+}
+
+#message{
+  text-align:center;
+  padding-top:10px;
+}
+
+.fa-github{
+  font-size: 20px;
+  color: #56d6fc;
+  &:hover{color: #23abfa;}
 }
