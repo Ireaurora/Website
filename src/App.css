@@ -408,10 +408,7 @@ small {
 .card-deck {
   width: 100%;
   margin: 0 auto;
-  padding-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
+  padding: 0 10px 30px 30px;
 }
 
 @media (min-width: 576px) {
@@ -439,6 +436,10 @@ small {
 
 .card_button:hover {
   background-color: #25a599 !important;
+}
+
+.card_button a {
+  color: white;
 }
 
 #small {

@@ -10,14 +10,14 @@ class CodeProject extends Component {
             <div className="condiv">
             <div className="CodeCards">
             <CardDeck>
-                <CodeProj title="P1" when="2018" image={uniofYork} text="Some modules" />
-                <CodeProj title="Computer Science" when="2018" image={uniofYork} text="Some modules" name="jij"/>
-                <CodeProj title="Computer Science" when="2018" image={uniofYork} text="Some modules" name="jij"/>
+                <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
+                <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
+                <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
             </CardDeck>
             <CardDeck>
-                <CodeProj title="P1" when="2018" image={uniofYork} text="Some modules" />
-                <CodeProj title="Computer Science" when="2018" image={uniofYork} text="Some modules" name="jij" />
-                <CodeProj title="Computer Science" when="2018" image={uniofYork} text="Some modules" name="jij" />
+                <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
+                <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
+                <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
             </CardDeck>
         </div>
         <Contact />

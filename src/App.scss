@@ -336,12 +336,8 @@ small { display: none; }
 .card-deck{
   width: 100%;
   margin: 0 auto;
-  padding-bottom: 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
+  padding:0 10px 30px 30px;
 }
-
 
 @media (min-width: 576px){
 .card-deck {
@@ -365,6 +361,9 @@ small { display: none; }
   border: 1px solid #318e85 !important;
   &:hover{
     background-color: #25a599 !important;
+  }
+  a{
+    color: white;
   }
 }
 
