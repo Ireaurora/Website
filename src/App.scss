@@ -9,6 +9,7 @@
 *{
   margin:0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   color: black;
@@ -27,6 +28,10 @@ body {
 .condiv{
   background-color: #f5feff;
   flex:var(--condiv-flex);
+}
+
+.CodeCards{
+  padding-top: 20px;
 }
 
 .home{
@@ -323,36 +328,46 @@ small { display: none; }
   }
 }
 
-.CodeProjects{
-  width: 80%;
-  margin: 0 auto;
-  width:100%;
-  text-align:center;
-}
-
 .card{
-  max-width: 250px;
-  max-height: 450px;
-  margin: 0 auto; /* Added */
-  float: none; /* Added */
-  margin-bottom: 10px; /* Added */
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .card-deck{
-  margin-top:10px;
-  display:flex;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+}
+
+
+@media (min-width: 576px){
+.card-deck {
+    margin-right: 0 !important; 
+    margin-left: 0 !important; 
+}
+}
+.card-img-top{
+  padding:3px;
+  max-width:320px;
+  max-height:150px;
+  display:block;
+  margin:auto;
+  border: 1px #ccc solid;
 }
 
 .card_button{
+  margin:2px;
   background-color: #25a599 !important;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  float:left;
-  clear:left !important;
   border: 1px solid #318e85 !important;
-  text-align:center;
   &:hover{
     background-color: #25a599 !important;
   }
+}
+
+#small{
+  font-size:x-small;
 }
