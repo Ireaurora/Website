@@ -9,7 +9,7 @@ import Contact from '../contents/Contact';
 class Home extends Component {
     render() {
         return (
-            <div className="condiv home">
+            <div className="condiv home" id="About">
             <img src={picture} className="profilepic"></img>
             <ReactTypingEffect className="typingeffect" text={['while(true){ shuffle(Developer 💻, Speaker 👩🏼‍💻, Student 📚, Designer ✏️); }']} speed={100} eraseDelay={250000}/>
             <Social />

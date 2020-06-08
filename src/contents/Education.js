@@ -7,7 +7,7 @@ class Education extends Component {
     render() {
                 return (
             <div className="condiv">
-            <h1 className="subtopic" id="education"><span>Education</span></h1>
+            <h1 className="subtopic" id="Education"><span>Education</span></h1>
            
             <FlipCard title="Computer Science" where="University of York" from="2018" image={uniofYork} to="Present" educationLevel="Some modules" skills={['Operating Systems', 'Databases', 'Software project', 'User Research, Design and Experience','Complexity Theory','Hardware', 'Vision and Graphics' ]}/>
         
