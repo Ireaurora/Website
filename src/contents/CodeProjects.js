@@ -12,27 +12,33 @@ class CodeProject extends Component {
             <Dropdown>
             <Dropdown.Toggle variant="success" id="dropdown-basic">Developed in: </Dropdown.Toggle>
             <Dropdown.Menu>
-                <Dropdown.Item href="#/action-1">L1</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">L2</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">L3</Dropdown.Item>
+                <Dropdown.Item href="#JavaScript">JavaScript</Dropdown.Item>
+                <Dropdown.Item href="#Python">Python</Dropdown.Item>
+                <Dropdown.Item href="#Java">Java</Dropdown.Item>
                 <Dropdown.Item href="#message">More Projects</Dropdown.Item>
             </Dropdown.Menu>
             </Dropdown>
             
             <div className="CodeCards">
-            <h1 className="subtopic" id=""><span></span></h1>
+            <h1 className="subtopic" id="JavaScript"><span>JavaScript</span></h1>
             <CardDeck>
                 <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
                 <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
                 <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
             </CardDeck>
-            <h1 className="subtopic" id=""><span></span></h1>
+            <h1 className="subtopic" id="Python"><span>Python</span></h1>
             <CardDeck>
                 <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
                 <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
                 <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
             </CardDeck>
-            <p id="message">This page highlight only some of my projects! Find more on my <a href="https://twitter.com/WinnieIre" target="_blank"><i className="fab fa-github"></i></a> page!</p>
+            <h1 className="subtopic" id="Java"><span>Java</span></h1>
+            <CardDeck>
+                <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
+                <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
+                <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
+            </CardDeck>
+            <p id="message">This page highlight only some of my projects! Find more on my <a href="https://github.com/Ireaurora" target="_blank"><i className="fab fa-github"></i></a> page!</p>
         </div>
         <Contact />
         </div>
