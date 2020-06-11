@@ -22,7 +22,7 @@ class CodeProject extends Component {
             <div className="CodeCards">
             <h1 className="subtopic" id="JavaScript"><span>JavaScript</span></h1>
             <CardDeck>
-                <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
+                <CodeProj image={uniofYork} title="Tip Calculator" when="2019" codeurl="https://github.com/Ireaurora/tip_calculator" liveurl="https://ireaurora.github.io/tip_calculator/index.html" text="This tool was created for restaturants and cafes"/>
                 <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
                 <CodeProj image={uniofYork} title="" when="" codeurl="" liveurl="" text=""/>
             </CardDeck>
