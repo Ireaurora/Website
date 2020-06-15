@@ -15,7 +15,7 @@ class CodeProj extends Component {
                 <Button className="card_button" variant="primary"><a href={this.props.liveurl}>Live</a></Button>
               </Card.Body>
               <Card.Footer>
-                  <p id="small">Developed in ~> {this.props.when}</p>
+                  <p id="small">Developed in {this.props.when}</p>
               </Card.Footer>
             </Card>
         )
