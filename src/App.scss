@@ -9,6 +9,7 @@
 *{
   margin:0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   color: black;
@@ -27,6 +28,10 @@ body {
 .condiv{
   background-color: #f5feff;
   flex:var(--condiv-flex);
+}
+
+.CodeCards{
+  padding-top: 20px;
 }
 
 .home{
@@ -321,4 +326,82 @@ small { display: none; }
     height: 100%;
     overflow-x: hidden;
   }
+}
+
+.card{
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card-deck{
+  width: 100%;
+  margin: 0 auto;
+  padding:0 30px 30px 30px;
+}
+
+@media (min-width: 576px){
+.card-deck {
+    margin-right: 0 !important; 
+    margin-left: 0 !important; 
+}
+}
+.card-img-top{
+  padding:3px;
+  max-width:320px;
+  max-height:150px;
+  display:block;
+  margin:auto;
+  //used for developing
+  border: 1px #ccc solid;
+}
+
+.card_button{
+  margin:2px;
+  background-color: #56d6fc !important;
+  border: 1px solid #23abfa !important;
+  &:hover{
+    background-color: #23abfa !important;
+    border: 1px solid #23abfa !important;
+  }
+  
+  a{ color: white; 
+    &:hover{
+      color: white; 
+      text-decoration: none;
+  }
+  }
+}
+
+#small{font-size:x-small;}
+
+.dropdown{
+  float:right;
+  padding:20px 10px 20px 0;
+}
+#dropdown-basic{
+  background-color: #56d6fc !important;
+  border: 1px solid #23abfa !important;
+}
+a.dropdown-item{
+  color:#0c74b1!important;
+  font-weight: bold;
+  &:hover{
+    color: #23abfa;
+    background-color:white;
+  }
+  &:focus{
+    color: #23abfa;
+    background-color:white !important;
+  }
+}
+
+#message{
+  text-align:center;
+  padding-top:10px;
+}
+
+.fa-github{
+  font-size: 20px;
+  color: #56d6fc;
+  &:hover{color: #23abfa;}
 }
