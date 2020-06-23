@@ -272,10 +272,6 @@ a.hoverline:hover {
   border-bottom: 3px solid #009688 !important;
 }
 
-#skills .card.large {
-  height: 360px;
-}
-
 #skills h4 {
   border-bottom: 1px solid #ddd;
   margin-bottom: 30px;
@@ -418,15 +414,6 @@ small {
   }
 }
 
-.card-img-top {
-  padding: 3px;
-  max-width: 320px;
-  max-height: 150px;
-  display: block;
-  margin: auto;
-  border: 1px #ccc solid;
-}
-
 .card_button {
   margin: 2px;
   background-color: #56d6fc !important;
@@ -488,5 +475,10 @@ a.dropdown-item:focus {
 
 .fa-github:hover {
   color: #23abfa;
+}
+
+.responsive-image {
+  width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=App.css.map */

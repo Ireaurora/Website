@@ -7,7 +7,7 @@ class CodeProj extends Component {
     render() {
         return (
             <Card>
-              <Card.Img className="Cardimage" variant="top" src={this.props.image}/>
+              <Card.Img variant="top" src={this.props.image}/>
               <Card.Body>
                 <Card.Title>{this.props.title}</Card.Title>
                 <Card.Text>{this.props.text}</Card.Text>
