@@ -14,7 +14,7 @@ class CodeProj extends Component {
               </p>
             </div>
             <div class="card-footer">
-            <small class="text-muted">Developed in ~ {this.props.date}</small>
+            <small class="text-muted">Developed in {this.props.when}</small>
             </div>
           </div>
         </div>
