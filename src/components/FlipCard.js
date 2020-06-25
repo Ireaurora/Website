@@ -22,7 +22,7 @@ class FlipCard extends Component {
                <p className="date">{this.props.from} - {this.props.to}</p>
               </div>
               <div className="flip-card-back">
-                <p>{this.props.educationLevel} achieved: </p>
+                <p>{this.props.educationLevel}</p>
               <List tasks= {this.props.skills} />
               </div>
             </div>

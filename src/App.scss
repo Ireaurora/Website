@@ -137,11 +137,13 @@ h1{
 
 .flip-card-back {
   transform: rotateY(180deg);
+  padding:7px;
   ul li{
     list-style-position: inside;
     list-style-type: none;
     padding:0;
   }
+  p{ font-weight: 500;}
 }
 
 @media all and (max-width: 450px) {

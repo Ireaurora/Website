@@ -182,12 +182,17 @@ h1:before, h1:after {
 .flip-card-back {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
+  padding: 7px;
 }
 
 .flip-card-back ul li {
   list-style-position: inside;
   list-style-type: none;
   padding: 0;
+}
+
+.flip-card-back p {
+  font-weight: 500;
 }
 
 @media all and (max-width: 450px) {
