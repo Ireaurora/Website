@@ -13,6 +13,7 @@ class Work extends Component {
 
             <h1 className="subtopic" id="Experience"><span>Experience</span></h1>
 
+            <div className = "centering">
             <FlipCard title="AI and Computer Vision Research Intern" where="University of York" from="August 2020" to="September 2020" image={uniOfYork} educationLevel="Experiences :" skills={['In progress']}/>
 
             <FlipCard title="Software Engineer Intern" where="Royal Bank of Scotland" from="June 2020" to="August 2020" image={rbs} educationLevel="Experiences :" skills={['In progress']}/>
@@ -25,6 +26,7 @@ class Work extends Component {
 
             <FlipCard title="Software Engineer Intern" where="Royal Bank of Scotland" from="April 2019" to="April 2019" image={rbs} educationLevel="Experiences :" skills={['Networking', 'Agile Environment', 'Introduction to the business', 'Introduction to the Security team', 'Introduction to the Architecture team', 'Introduction to the AI team',]}/>
 
+            </div>
             </div>
             )
         }

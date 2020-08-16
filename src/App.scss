@@ -57,6 +57,7 @@ p{ font-size: var(--fontsize-p); }
 h1,h2,h3,h4,p{
   margin: 10px;
 }
+
 .contactMe{
   background: -webkit-linear-gradient(left, #9fff82, #9fff82,#00ffd8,#00ffd8,#56d6fc, #23abfa);
   text-align:center;
@@ -102,9 +103,14 @@ h1{
 .flip-card {
   background-color: transparent;
   width: 300px;
+  display: inline-block;
   height: 300px;
   perspective: 1000px;
   margin: 7px;
+}
+
+.centering{
+  text-align: center;
 }
 
 .flip-card-image{
