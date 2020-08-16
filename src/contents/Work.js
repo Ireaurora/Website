@@ -3,6 +3,7 @@ import FlipCard from '../components/FlipCard';
 import legend from '../img/legend.png';
 import rbs from '../img/rbs.png';
 import internshipuk from '../img/InternshipUK.png';
+import uniOfYork from '../img/uniOfYork.png';
 
 class Work extends Component {
     render() {
@@ -11,6 +12,8 @@ class Work extends Component {
             <div className="condiv">
 
             <h1 className="subtopic" id="Experience"><span>Experience</span></h1>
+
+            <FlipCard title="AI and Computer Vision Research Intern" where="University of York" from="August 2020" to="September 2020" image={uniOfYork} educationLevel="Experiences :" skills={['In progress']}/>
 
             <FlipCard title="Software Engineer Intern" where="Royal Bank of Scotland" from="June 2020" to="August 2020" image={rbs} educationLevel="Experiences :" skills={['In progress']}/>
     
