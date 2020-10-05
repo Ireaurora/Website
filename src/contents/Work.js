@@ -14,9 +14,9 @@ class Work extends Component {
             <h1 className="subtopic" id="Experience"><span>Experience</span></h1>
 
             <div className = "centering">
-            <FlipCard title="AI and Computer Vision Research Intern" where="University of York" from="August 2020" to="September 2020" image={uniOfYork} educationLevel="Experiences :" skills={['In progress']}/>
+            <FlipCard title="AI and Computer Vision Research Intern" where="University of York" from="August 2020" to="September 2020" image={uniOfYork} educationLevel="Skills developed : " skills={['iOS Development','SwiftUI & Swift 5', 'Swift ML frameworks', 'AWS', 'API']}/>
 
-            <FlipCard title="Software Engineer Intern" where="Royal Bank of Scotland" from="June 2020" to="August 2020" image={rbs} educationLevel="Experiences :" skills={['In progress']}/>
+            <FlipCard title="Software Engineer Intern" where="Royal Bank of Scotland" from="June 2020" to="August 2020" image={rbs} educationLevel="Experiences :" skills={['Undestanding purpose','Agile working', 'Hackathon', 'Design Thinking', 'AI']}/>
     
             <FlipCard title="Technology Intern" where="Internship Experience UK" from=" 30 June 2020" to="2 July 2020" image={internshipuk} educationLevel="Talks and Project :" skills={['Google : Managing Complexity', 'Accenture : Introduction to Technology', 'Goldman Sachs :  Verification and Testing', 'Bloomberg : Communication and collaboration', 'Vodafone : Agile Software Development', 'Project : TBA']}/>
 
