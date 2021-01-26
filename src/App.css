@@ -196,7 +196,11 @@ h1:before, h1:after {
   padding: 0;
 }
 
-.flip-card-back p {
+.flip-card-back #back {
+  font-weight: 300 !important;
+}
+
+.flip-card-back p #front {
   font-weight: 500;
 }
 

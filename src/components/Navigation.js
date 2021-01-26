@@ -20,14 +20,16 @@ class Navigation extends Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
+                {/*
                  <Nav.Link href="#About">About</Nav.Link>
-                 <Nav.Link className="navbar-links" href="#Experience">Experience</Nav.Link>
+                 <Nav.Link className="navbar-links" href="/#Experience">Experience</Nav.Link>
+                 <Nav.Link className="navbar-links" href="/#Education">Education</Nav.Link>
+                <Nav.Link  className="navbar-links" href="/#Contact">Contact</Nav.Link>
                  {/* <Nav.Link href="#skills">Skills</Nav.Link> */}
             </Nav>
-            <Nav>
-                <Nav.Link className="navbar-links" href="#Education">Education</Nav.Link>
-                <Nav.Link  className="navbar-links" href="#Contact">Contact</Nav.Link>
-              </Nav>
+              <Nav>
+                <Nav.Link href="/irenecodes/">Speaking</Nav.Link>
+              </Nav> 
             </Navbar.Collapse>
             </Navbar>
             )

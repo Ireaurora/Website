@@ -2,22 +2,28 @@ import React from 'react';
 import './App.css';
 import {
   BrowserRouter as Router,
-  Route,
+  Route, Switch
 } from "react-router-dom";
-import Navigation from './components/Navigation';
 import Home from './contents/Home';
-
+import SpeakingPage from './contents/SpeakingPage';
+import Navigation from './components/Navigation';
 function App() {
   return (
-    <Router>
-    <Navigation />
-    <div className="App">
-    <Route exact path="/"></Route>
-    <Home />
-    </div>
-    </Router>
+<Router>
+<Switch>
+   <Route exact path="/irenecodes">
+   <Navigation />
+     <SpeakingPage />  
+   </Route>
+   <Route path="/">
+   <Navigation />
+   <div className="App">
+   <Home />
+   </div>  
+   </Route>
+ </Switch>
+</Router>
     );
   }
   
   export default App;
-  
