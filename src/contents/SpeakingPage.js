@@ -22,17 +22,18 @@ class SpeakingPage extends Component {
 
                 <div className = "centering">
 
-                <SpeakingCard title="TBA" where="dotnettsheff" date="Tue 2nd March" time ="at 6:30pm" image={dotnetsheff}  abstract="TBA"/>
+                <SpeakingCard title="Introduction to Machine Learning" where="dotnettsheff" date="Tue 2nd March" time ="at 6:30pm" image={dotnetsheff}  abstract="TBA"/>
 
-                <SpeakingCard title=" How Are We Teaching Machines to Learn?" where="PHP Oxford" date="Wed 27th Jan" time ="at 7:30pm" image={phpoxford}  abstract="In this talk we’ll understand why AI isn’t really the same as ML, investigate different types of Machine Learning and take a look at some applications of this exciting field"/>
+                
 
                 
                 
                 <h1 className="subtopic" id="Past"><span>Past</span></h1>
 
-                <SpeakingCard title=" How Are We Teaching Machines to Learn?" where="PHP Leeds" date="18/11/2020" time ="at 7:00pm" image={leedsphp}  abstract="In this talk we’ll understand why AI isn’t really the same as ML, investigate different types of Machine Learning and take a look at some applications of this exciting field"/>
+                <SpeakingCard title=" How Are We Teaching Machines to Learn?" where="PHP Oxford" date="Jan 2021" time ="" image={phpoxford}  abstract="In this talk we’ll understand why AI isn’t really the same as ML, investigate different types of Machine Learning and take a look at some applications of this exciting field. ML code demo at the end!"/>
 
-                <SpeakingCard title="Event Host" where="PHPYorkshire Conference" date="TBC" time ="" image={PHPYorkshire}  abstract="Come and join us for a chance to enhance your skills with some quality learning from some of the best people in the PHP community, whilst set in an idyllic location."/>
+                <SpeakingCard title=" How Are We Teaching Machines to Learn?" where="PHP Leeds" date="Nov 2020" time ="" image={leedsphp}  abstract="In this talk we’ll understand why AI isn’t really the same as ML, investigate different types of Machine Learning and take a look at some applications of this exciting field. ML code demo at the end!" />
+                <SpeakingCard title="Event Host" where="PHPYorkshire Conference" date="TBC due to COVID-19" time ="" image={PHPYorkshire}  abstract="Come and join us for a chance to enhance your skills with some quality learning from some of the best people in the PHP community, whilst set in an idyllic location."/>
 
                 <SpeakingCard title="How to Start Coding" where="YorkTechFest" date="2019" time ="" image={techfest}  abstract=" In this talk you’ll discover a range of resources that you can use to get started or improve your coding skills."/>
                 </div>
