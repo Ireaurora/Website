@@ -18,17 +18,13 @@ class SpeakingPage extends Component {
                 <img src={picture} className="profilepic"></img>
                 <ReactTypingEffect className="typingeffect" text={['while(true){ shuffle(Developer 💻, Speaker 👩🏼‍💻, Student 📚, Designer ✏️); }']} speed={100} eraseDelay={250000}/>
                 <Social />
-                <h1 className="subtopic" id="2021"><span>2021</span></h1>
+                {/* <h1 className="subtopic" id="2021"><span>Future talks</span></h1> */}
 
                 <div className = "centering">
-
-                <SpeakingCard title="Introduction to Machine Learning" where="dotnettsheff" date="Tue 2nd March" time ="at 6:30pm" image={dotnetsheff}  abstract="TBA"/>
-
                 
+                {/* <h1 className="subtopic" id="Past"><span>Past</span></h1> */}
 
-                
-                
-                <h1 className="subtopic" id="Past"><span>Past</span></h1>
+                <SpeakingCard title="Introduction to Machine Learning" where="dotnettsheff" date="Tue 2nd March" time ="at 6:30pm" image={dotnetsheff}  abstract="In this talk we’ll understand why AI isn’t really the same as ML, investigate different types of Machine Learning and take a look at some applications of this exciting field. ML code demo at the end!"/>
 
                 <SpeakingCard title=" How Are We Teaching Machines to Learn?" where="PHP Oxford" date="Jan 2021" time ="" image={phpoxford}  abstract="In this talk we’ll understand why AI isn’t really the same as ML, investigate different types of Machine Learning and take a look at some applications of this exciting field. ML code demo at the end!"/>
 
